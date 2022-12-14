@@ -1,0 +1,16 @@
+#about {
+  display: grid;
+  place-content: center;
+
+  .about__text {
+    font-size: 1.1rem;
+    line-height: 1.4;
+    color: var(--clr-dark);
+    max-width: 700px;
+    margin: 0 auto;
+  }
+
+  .about__text:nth-of-type(2) {
+    margin-top: 0.5rem;
+  }
+}

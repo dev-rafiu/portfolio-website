@@ -1,0 +1,87 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --clr-white: #fff;
+  --clr-dark: hsl(205, 86%, 17%);
+  --clr-secondary: rgb(73, 166, 233);
+
+  --typewriterSpeed: 6s;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--clr-white);
+  font-family: "Baloo 2", sans-serif;
+  position: relative;
+}
+
+section {
+  padding: 7rem 0;
+  // height: 100vh;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+.container {
+  width: min(90%, 69.375rem);
+  margin: 0 auto;
+  // background: hotpink;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  line-height: 1.1;
+}
+
+.section__title {
+  // font-weight: 100;
+  color: var(--clr-secondary);
+  position: relative;
+  max-width: max-content;
+  margin-bottom: 3rem;
+  margin-left: auto;
+  margin-right: auto;
+  letter-spacing: 2px;
+  // font-size: 2rem;
+
+  &::after {
+    content: "";
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    width: 70%;
+    height: 2px;
+    background-color: var(--clr-secondary);
+  }
+}
+
+.back-to-top {
+  font-size: 2rem;
+  position: fixed;
+  bottom: 1rem;
+  right: 1.5rem;
+  color: var(--clr-secondary);
+  display: none;
+}

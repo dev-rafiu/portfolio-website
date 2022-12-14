@@ -1,0 +1,39 @@
+.footer {
+  padding: 2rem 0;
+  background-color: var(--clr-dark);
+
+  .container {
+    flex-direction: column;
+    gap: 0.8rem;
+  }
+
+  .socials {
+    gap: 1.5rem;
+    justify-content: center;
+
+    li {
+      transition: transform 0.25s ease;
+    }
+
+    .icon {
+      color: var(--clr-white);
+      font-size: 1.3rem;
+    }
+
+    .icon {
+      height: 1.7rem;
+    }
+
+    @media (hover: hover) {
+      a:hover {
+        color: var(--clr-secondary);
+      }
+    }
+  }
+
+  .copyright {
+    text-align: center;
+    color: var(--clr-secondary);
+    font-size: 0.9rem;
+  }
+}
