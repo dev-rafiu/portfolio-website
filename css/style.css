@@ -284,11 +284,11 @@ h4 {
 #projects .project__details {
   padding: 2rem 1rem;
 }
-#projects .project__details h3 {
+#projects .project__details h2 {
   color: var(--clr-secondary);
   font-weight: 100;
   text-align: center;
-  margin-bottom: 0.5rem;
+  margin-bottom: 1rem;
 }
 #projects .project__img-container {
   display: block;
@@ -301,7 +301,7 @@ h4 {
   background-image: url(../asset/e-tracker.jpg);
 }
 #projects .internshipy {
-  background-image: url(../asset/internshipy-img.jpg);
+  background-image: url(../asset/internshipy.jpg);
 }
 #projects .easybank {
   background-image: url(../asset/easybank.jpg);
