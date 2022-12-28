@@ -20,14 +20,14 @@ html {
 
 body {
   background: var(--clr-white);
-  background-color: rgb(239, 242, 249);
+  // background-color: rgb(239, 242, 249);
+  background-color: var(--clr-white);
   font-family: "Baloo 2", sans-serif;
   position: relative;
 }
 
 section {
-  padding: 5rem 0;
-  // height: 100vh;
+  padding: 3rem 0;
 }
 
 a {
@@ -39,9 +39,8 @@ ul {
 }
 
 .container {
-  width: min(90%, 69.375rem);
+  width: min(85%, 69.375rem);
   margin: 0 auto;
-  // background: hotpink;
 }
 
 .flex {
